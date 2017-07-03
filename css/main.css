@@ -1,13 +1,14 @@
 /*neutral*/
 * {
-	font-family: 'karla', sans-serif;
+	font-family: 'roboto bold', sans-serif;
 }.footer,
 .header {
-	background: #396bf7;
-	color: white;
+	background: #F6F6F6;
+	color: #2C3E50;
+	font-weight: black;
 }
 .ctas-button {
-	color: #396bf7;
+	color: #2980B9;
 }@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 *,
 *:before,
@@ -143,6 +144,7 @@ p.paragraph {
 }
 .container-lrg {
   max-width: 1080px;
+
 }
 .container-sml {
   max-width: 700px;
@@ -197,7 +199,7 @@ p.paragraph {
 	height: 40px;
 	line-height: 38px;
 	padding: 0 30px;
-	background: #fff;
+	background: #2980B9;
 	border-radius: 3px;
 	font-size: 15px;
 	font-weight: 600;
@@ -232,6 +234,7 @@ p.paragraph {
 @media (max-width: 750px) {
   .socialproof .emoji {
     font-size: 40px;
+	text-align: center;
   }
   .testimonial {
   	min-height: inherit;
@@ -259,7 +262,7 @@ p.paragraph {
 	height: 40px;
 	line-height: 38px;
 	padding: 0 30px;
-	background: #fff;
+	background: #2980B9;
 	border-radius: 3px;
 	font-size: 15px;
 	font-weight: 600;
@@ -305,7 +308,8 @@ p.paragraph {
 	height: 40px;
 	line-height: 38px;
 	padding: 0 30px;
-	background: #fff;
+	color: #fff;
+	background: #2980B9;
 	border-radius: 3px;
 	font-size: 15px;
 	font-weight: 600;
@@ -327,6 +331,7 @@ p.paragraph {
 }.feature3 {
 	padding: 90px 0;
 	border-bottom: 1px solid rgba(0,0,0,.1);
+	text-align: center;
 }
 .feature3 .emoji {
 	font-size: 55px;
